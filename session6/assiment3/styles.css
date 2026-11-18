@@ -1,0 +1,50 @@
+:root {
+    --brand: #12546c;
+    font-size: 16px;
+}
+
+body {
+    color: #24364b;
+    background: white;
+}
+
+/* h1, h2 { color: var(--brnad); } */
+h1, h2 {
+    color: var(--brand);
+}
+
+/* course-card { background: #eef5ff; } */
+.course-card {
+    background: #eef5ff;
+    font-size: 20px;
+}
+
+/* .course-card h2 { font-size: 1.5em; } */
+.course-card h2 {
+    font-size: 1.5rem;
+}
+
+/* .course-card p { background: #fff4d9; } */
+.course-card > p {
+    background: #fff4d9;
+}
+
+/* .course-card h2::before { color: var(--brand); } */
+.course-card h2::before {
+    content: "• ";
+    color: var(--brand);
+}
+
+.action {
+    color: #12546c;
+}
+
+/* .action :hover { color: #6845a8; } */
+.action:hover {
+    color: #6845a8;
+}
+
+/* .action:focus-visible { outline: 0 solid orange; } */
+.action:focus-visible {
+    outline: 3px solid orange;
+}
