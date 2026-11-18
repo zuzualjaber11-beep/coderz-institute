@@ -1,0 +1,12 @@
+مسار ملف css بكل صفحة:
+- في صفحة الرئيسية (index.html): styles.css
+- في صفحة الكورسات (pages/courses.html): ../styles.css
+
+2. الـ Selector الخاص بالكورس المكتمل وشرحه:
+.course-card[data-status="full"] .status
+
+هاد الـ Selector بدور على الكرت اللي حالته مكتملة 
+(يعني data-status="full")، 
+وبيروح جواه على كلمة الحالة (span.status)
+ لحالها عشان يعطيها خلفية رمادية،
+ بدون ما يغير لون الكرت كامل أو لون النص والوصف
